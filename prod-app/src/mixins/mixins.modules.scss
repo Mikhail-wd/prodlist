@@ -1,0 +1,116 @@
+@import url(https://fonts.google.com/share?selection.family=Anek%20Telugu:wght@100;200;300;400;500;600;700;800);
+@import url(https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900);
+
+@mixin white {
+    color: #FBFBFB
+}
+
+@mixin grey {
+    color: #414141;
+}
+
+@mixin yellow {
+    color: #FFCC26;
+}
+
+@mixin back-white {
+    background-color: #FBFBFB;
+}
+
+@mixin back-grey {
+    background-color: #414141;
+}
+
+@mixin back-yellow {
+    background-color: #FFCC26;
+}
+
+@mixin header {
+    font-family: 'Anek Telugu',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 72px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+@mixin favorite {
+    font-family: 'Anek Telugu',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+}
+
+@mixin list-text {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+}
+
+@mixin list-price {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@mixin product-text-med {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+}
+
+@mixin product-price {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+@mixin product-price-huge {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 2.8px;
+}
+
+@mixin product-text-huge {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 2.8px;
+    line-height: 96px;
+}
+
+@mixin fat-bord {
+    @include grey;
+    background: #FFFFFF;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='30' ry='30' stroke='%23333' stroke-width='2' stroke-dasharray='12%2c 12' stroke-dashoffset='35' stroke-linecap='butt'/%3e%3c/svg%3e");
+    border-radius: 30px;
+}
+
+@mixin slim-bord {
+    @include grey;
+    background: #FFFFFF;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='30' ry='30' stroke='%23333' stroke-width='1' stroke-dasharray='12%2c 12' stroke-dashoffset='35' stroke-linecap='butt'/%3e%3c/svg%3e");
+    border-radius: 30px;
+}
+
+@mixin link-decoration-off {
+    text-decoration: none;
+}

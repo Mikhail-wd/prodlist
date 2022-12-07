@@ -1,0 +1,11 @@
+@import '../../mixins/mixins.modules.scss';
+
+.product-list {
+    display: inline-block;
+    margin-left: 176px;
+    width: 1236px;
+    height: 950px;
+    overflow-y: scroll;
+    scrollbar-color: #FFCC26 #4141414d;
+    scrollbar-width: thin;
+}

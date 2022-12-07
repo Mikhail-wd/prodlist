@@ -1,0 +1,16 @@
+@import '../../mixins/mixins.modules.scss';
+
+.list-border {
+    display: inline-block;
+    padding-top: 0;
+    
+    width: 407px;
+    height: 880px;
+    position: relative;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='30' ry='30' stroke='%23333' stroke-width='2' stroke-dasharray='12%2c12' stroke-dashoffset='15' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 30px;
+    overflow-y: hidden;
+    .header {
+        @include favorite;
+    }
+}

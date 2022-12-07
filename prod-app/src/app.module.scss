@@ -1,0 +1,9 @@
+@import './mixins/mixins.modules.scss';
+
+.App {
+    display: inline-block;
+    margin: 0;
+    width: 1920px;
+    height: 1255px;
+    overflow-y: hidden;
+}

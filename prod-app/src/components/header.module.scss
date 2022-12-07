@@ -1,0 +1,17 @@
+@import '../mixins/mixins.modules.scss';
+.header {
+    @include back-yellow;
+    height: 100px;
+    border-bottom: 0.5px solid black;
+    
+}
+
+.header-text{
+    @include header;
+    @include grey;
+    width: 400px;
+    display: inline-block;
+    text-align: right;
+    margin-left: 1420px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

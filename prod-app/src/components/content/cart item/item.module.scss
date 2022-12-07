@@ -1,0 +1,20 @@
+@import '../../../mixins/mixins.modules.scss';
+
+.cart-img {
+    width: 108px;
+    height: 108px;
+}
+.item {
+    overflow: hidden;
+    @include link-decoration-off;
+}
+.icon-small {
+    width: 36px;
+    height: 35px;
+}
+.list-price{
+    @include list-price;
+}
+.list-text {
+    @include list-text;
+}

@@ -1,0 +1,39 @@
+@import '../../../mixins/mixins.modules.scss';
+
+.item {
+    width: 1205px;
+    height: 831px;
+    display: inline-block;
+    margin-left: 176px;
+    position: relative;
+    Img {
+        z-index: 1000;
+    }
+
+    .content {
+        width: 616px;
+        position: relative;
+        top: -687px;
+        left: 532px;
+        height: 402px;
+    }
+
+    .huge-letters {
+        z-index: -1000;
+        @include product-text-huge;
+        height: 200px;
+    }
+
+    .huge-price {
+        overflow: hidden;
+        z-index: -1000;
+        @include product-price-huge;
+        height: 80px;
+    }
+
+    .prodimage {
+        width: 85.75px;
+        height: 85.75px;
+        border-radius: 30px;
+    }
+}
